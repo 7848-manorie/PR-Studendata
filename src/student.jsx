@@ -111,7 +111,7 @@ function Student() {
                       <button className="text-red-500 hover:text-red-700" onClick={() => handleDelete(i)}>
                         <MdDeleteForever size={20} />
                       </button>
-                      <button className="text-blue-500 hover:text-blue-700" onClick={() => handleUpdate(idx)}>
+                      <button className="text-blue-500 hover:text-blue-700" onClick={() => handleUpdate(i)}>
                         <FaPencilAlt size={18} />
                       </button>
                     </td>
@@ -134,3 +134,4 @@ function Student() {
 }
 
 export default Student;
+
